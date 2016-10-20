@@ -1,0 +1,26 @@
+{
+    "name": "nubium/coding-style",
+    "description": "Coding style used in our company.",
+    "type": "library",
+    "require": {
+        "squizlabs/php_codesniffer": "~2.7",
+        "slevomat/coding-standard": "~1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiri Travnicek",
+            "email": "jiri.travnicek@nubium.cz"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://satis.tool.nds/packages"
+        }
+    ],
+    "config": {
+        "secure-http": false
+    },
+    "minimum-stability": "stable"
+}
